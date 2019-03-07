@@ -1,0 +1,13 @@
+class ArithmeticOperator {
+  def main(args: Array[String]) {
+      val ( a:Int, b:Int) = Pair (100,20)
+     var c = a+b
+     var d = a-b
+     var e = a*b
+     var f = a/b
+      printf("value of Addition : " + c + "\n")
+     printf("value of subraction : " + d + "\n")
+      printf("value of Muliplication : " + e + "\n")
+      printf("value of Division : " + f + "\n")
+   }
+}
